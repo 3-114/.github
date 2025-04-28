@@ -1,6 +1,6 @@
-# starbucks_store
+# Starbucks_renewal_project
 
-스파로스 아카데미 6기 스타벅스 온라인 스토어 클론 코딩 프로젝트
+![스파로스 114 로고 이미지](https://github.com/user-attachments/assets/52cd0249-474b-4ba7-90e7-b2554602aca9)
 
 ## 목차
 1. [기획](#1-기획-의도-및-기대-효과)
@@ -12,8 +12,12 @@
 7. [프로젝트 규칙](#7-프로젝트-규칙)
 8. [포팅 메뉴얼](#8-포팅-메뉴얼)
 
-## 1. 기획
 
+## 1. 기획
+> #### ✨ 신세계 I&C [스파로스 6기](https://swedu.spharosacademy.com/spharos_total.html) - 리빌딩 프로젝트
+> #### ⏫ 스타벅스 내 Shopping 서비스를 새롭게 구현 및 성능 개선
+> #### 📅 개발 기간 : 2025년 3월 10일 ~ 4월 28일
+> #### 🌐 홈페이지 : https://www.starbucks-renewal.shop/
 ---
 
 ## 2. 개발 환경
@@ -31,14 +35,14 @@
 | shadcn | - |
 
 ### Backend
-| Name | Version |
-| --- | --- |
-| - | - |
-| - | - |
-| - | - |
-| - | - |
-| - | - |
-| -| - |
+| Name        | Version |
+|-------------|---------|
+| Java        | 17      |
+| spring boot | 3.4.4   |
+| -           | -       |
+| -           | -       |
+| -           | -       |
+| -           | -       |
 
 ### Infra
 | Name | Version |
@@ -68,40 +72,95 @@
 
 ## 5. 설계 문서
 
-### 와이어 프레임 Web
+### 🏗시스템 아키텍쳐
 
-> 추가 예정
+<br>
 
-### 시스템 아키텍쳐
+![114-아키텍쳐](https://github.com/user-attachments/assets/58712f9b-50dc-4b0d-ac8d-0e407e7325f4)
 
-> 추가 예정
+<br>
+<br>
 
-### ERD
+### 📝ERD
 
-> 추가 예정
+![최종 ERD](https://github.com/user-attachments/assets/e484d31e-6d8b-4545-bf7b-1417a835eaf3)
+### 📝 [ERD 링크](https://www.erdcloud.com/d/AfbenbEeNpbLj2dwu)
+
+<br>
+<br>
 
 ### 요구사항 정의서
+![요구사항 정의서](./img/requirement.png)
 
-> 추가 예정
+<br>
+<br>
 
 ### API명세서
+![api 명세서](./img/apiSpecification.png)
 
-> 추가 예정
 
 ---
 
 ## 6. 팀원 소개
+<div align="center" style="font-size: 32px; font-weight: bold; color: #f4a261;">
 
-|  |  |  |  |  |  |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|  |  |  |  |  |  |
-| Backend |  |  | Infra/Backend | Frontend |  |
+</div>
 
-**Backend**
+<br>
+<br>
 
-**Frontend**
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Demopeu">김동현</a></td>
+    <td align="center"><a href="https://github.com/DoNalD-A">👑 송민석</a></td>
+    <td align="center"><a href="https://github.com/Ahn-donghwan">안동환</a></td>
+    <td align="center"><a href="https://github.com/EUNSEO-YA">오은서</a></td>
+    <td align="center"><a href="https://github.com/chuman0216">추지우</a></td>
+  </tr>
 
-**Infra**
+  <tr>
+    <td align="center"><div class="role-box frontend">🖥️ Frontend</div></td>
+    <td align="center"><div class="role-box backend">⚙️ Backend</div></td>
+    <td align="center"><div class="role-box backend">⚙️ Backend</div></td>
+    <td align="center"><div class="role-box backend">⚙️ Backend</div></td>
+    <td align="center"><div class="role-box devops">☁️ DevOps</div></td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      메인 페이지<br>
+      상품 상세페이지<br>
+      장바구니 페이지
+    </td>
+    <td align="center">
+      상품 카테고리<br>
+      이벤트(기획전)<br>
+      QueryDSL
+    </td>
+    <td align="center">
+      로그인/회원가입<br>
+      JWT, Security<br>
+      장바구니
+    </td>
+    <td align="center">
+      회원 배송지<br>
+      상품 상세 옵션<br>
+      데이터 전처리/삽입
+    </td>
+    <td align="center">
+      상품 기능<br>
+      상품 이미지 관리<br>
+      CI/CD
+    </td>
+  </tr>
+</table>
+</div>
+
+<br>
+<br>
+<br>
+
 
 ---
 
