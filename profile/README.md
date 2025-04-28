@@ -1,17 +1,21 @@
 # Starbucks_renewal_project
 
+<div align="center" style="font-size: 32px; font-weight: bold; color: #f4a261;">
+
 ![스파로스 114 로고 이미지](https://github.com/user-attachments/assets/52cd0249-474b-4ba7-90e7-b2554602aca9)
+
+</div>
+
 
 ## 목차
 
-1. [기획](#1-기획-의도-및-기대-효과)
-2. [개발 환경](#2-개발-환경)
-3. [주요 기능](#3-주요-기능)
-4. [기술 소개](#4-기술-소개)
+1. [기획](#1-기획)
+2. [팀원 소개](#2-팀원-소개)
+3. [개발 환경](#3-개발-환경)
+4. [주요 기능](#4-주요-기능)
 5. [설계 문서](#5-설계-문서)
-6. [팀원 소개](#6-팀원-소개)
-7. [프로젝트 규칙](#7-프로젝트-규칙)
-8. [포팅 메뉴얼](#8-포팅-메뉴얼)
+6. [프로젝트 규칙](#-6-프로젝트-규칙)
+7. [포팅 메뉴얼](#7-포팅-메뉴얼)
 
 ## 1. 기획
 
@@ -24,206 +28,166 @@
 > #### 🌐 홈페이지 : https://www.starbucks-renewal.shop/
 
 ---
+<br>
 
-## 2. 개발 환경
+## 👥2. 팀원 소개
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Demopeu">김동현</a></td>
+    <td align="center"><a href="https://github.com/DoNalD-A">👑 송민석</a></td>
+    <td align="center"><a href="https://github.com/Ahn-donghwan">안동환</a></td>
+    <td align="center"><a href="https://github.com/EUNSEO-YA">오은서</a></td>
+    <td align="center"><a href="https://github.com/chuman0216">추지우</a></td>
+  </tr>
 
-### Frontend
+  <tr>
+    <td align="center"><div class="role-box frontend">🖥️ Frontend</div></td>
+    <td align="center"><div class="role-box backend">⚙️ Backend</div></td>
+    <td align="center"><div class="role-box backend">⚙️ Backend</div></td>
+    <td align="center"><div class="role-box backend">⚙️ Backend</div></td>
+    <td align="center"><div class="role-box devops">☁️ DevOps</div></td>
+  </tr>
 
-| Name         | Version |
-| ------------ | ------- |
-| Next.js      | 15.2.4  |
-| Typescript   | 5.0     |
-| react        | 19.0.0  |
-| tailwindcss  | 4.0.0   |
-| zustand      | 5.0.3   |
-| next-auth    | 4.24.11 |
-| lucide-react | 0.484.0 |
-| zod          | 3.24.2  |
-| shadcn       | -       |
+  <tr>
+    <td align="center">
+      메인 페이지<br>
+      상품 상세페이지<br>
+      장바구니 페이지
+    </td>
+    <td align="center">
+      상품 카테고리<br>
+      이벤트(기획전)<br>
+      QueryDSL
+    </td>
+    <td align="center">
+      로그인/회원가입<br>
+      JWT, Security<br>
+      장바구니
+    </td>
+    <td align="center">
+      회원 배송지<br>
+      상품 상세 옵션<br>
+      데이터 전처리/삽입
+    </td>
+    <td align="center">
+      상품 기능<br>
+      상품 이미지 관리<br>
+      CI/CD
+    </td>
+  </tr>
+</table>
+</div>
 
-### Backend
 
-| Name        | Version |
-| ----------- | ------- |
-| Java        | 17      |
-| spring boot | 3.4.4   |
-| -           | -       |
-| -           | -       |
-| -           | -       |
-| -           | -       |
+---
+## 3. 🎯개발 환경
 
-### Infra
+<br>
 
-| Name | Version |
-| ---- | ------- |
-| -    | -       |
-| -    | -       |
-| -    | -       |
-| -    | -       |
-| -    | -       |
-| -    | -       |
+<div align="center">
 
-### CI/CD
+### 🖥️ Front - End ↙️
 
-| Name | Version |
-| ---- | ------- |
-| -    | -       |
-| -    | -       |
+</div>
+
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" height="28"/>
+  <br>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat&logo=react&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/Zod-7C3AED?style=flat&logo=typescript&logoColor=white" height="28"/>
+</div>
+
+<br>
+
+<div align="center">
+
+### ⚙️ Back - End ↙️
+</div>
+
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=springboot&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat&logo=springsecurity&logoColor=white" height="28"/>
+  <br>
+  <img src="https://img.shields.io/badge/QueryDSL-009688?style=flat&logo=apachemaven&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/SpringDataJPA-4B8BBE?style=flat&logo=hibernate&logoColor=white" height="28"/>
+</div>
+
+<br>
+
+<div align="center">
+
+### 🖥️ Collabo ↙️
+</div>
+
+
+<br>
+
+<div align="center">
+
+  <!-- 협업 도구 -->
+  <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" height="28"/>
+  <br>
+
+  <!-- 개발 도구 -->
+<img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat&logo=intellijidea&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white" height="28"/>
+</div>
+
+<br>
 
 ---
 
-## 3. 주요 기능
+## 4. 주요 기능
+
 
 ---
-
-## 4. 기술 소개
-
-### 4-1. useFunnel Hook 활용
-
-복잡한 단계별 회원가입 플로우를 효율적으로 관리하기 위해 커스텀 훅인 useFunnel을 도입
-
-![Funnel](./img/useFunnel1.PNG)
-
-#### useFunnel 도입 이유
-
-1.  단계별 상태 관리 : 다음 단계로 전달
-2.  단계 전환 제어 : 사용자가 이전 단계로 돌아가거나 특정 단계로 이동
-3.  UI 구성의 유연성 : 각 단계에 따라 다른 헤더나 콘텐츠를 렌더링
-
-#### useFunnel 주요 기능
-
-1. stepIndex를 통해 현재 단계의 인덱스를 관리
-2. 폼 데이터 상태 관리: formData를 통해 각 단계에서 입력된 데이터를 유지
-3. 입력 처리 함수 제공: onInput을 통해 사용자 입력을 처리하고 상태를 업데이트
-
-#### 기대 효과
-
-1. 유지보수 용이성 향상: 단계별 로직이 분리되어 있어 코드의 가독성과 유지보수성이 향상
-
-2. 사용자 경험 개선: 사용자가 각 단계에서 필요한 정보를 명확하게 입력하고, 이전 단계로 쉽게 돌아갈 수 있어 사용자 경험이 향상
-
-3. 확장성 확보: 새로운 단계의 추가나 기존 단계의 수정이 용이하여 플로우의 확장성이 확보
-
-### 4-2. Optimistic UI 업데이트를 위한 useOptimistic Hook 활용
-
-React 19 및 Next.js 15 기반으로 개발하였기에 새롭게 추가된 useOptimistic Hook을 활용하여 사용자 경험을 극대화.
-
-- 기존 동작 방식
-  ![기존 동작 방식](./img/OptimisticUI_1.png)
-- hook 동작 방식
-  ![hook 동작 방식](./img/OptimisticUI_2.png)
-
-> useOptimistic
->
-> - useOptimistic은 비동기 작업이 진행되는 동안, UI를 즉각적으로 업데이트할 수 있게 해 주는 React Hook
-> - SSR 기반 환경에서도 사용자가 즉시 결과를 확인하여 사용자 경험 극대화(클릭 즉시 반영된 것 같은 경험)
-
-### 4-3 Zustand 라이브러리를 활용한 상태 관리
-
-Optimistic UI를 적용하면서, 클릭 시 바로 화면을 변화시키는 구조를 구현.
-
-그러나, 하나의 버튼 클릭에 따라 화면 하단의 다른 컴포넌트까지 **동시에 상태를 변경**해야 하는 상황이 발생
-
-Zustand를 도입하여 글로벌 상태 관리를 적용
-
-> Zustand 라이브러리 선택 이유
->
-> 1. Server/Client 경계에 구애받지 않는 단순한 API
-> 2. 복잡한 Context Provider 구성 없이, 필요한 곳에서 바로 사용 가능
-> 3. Next.js 15와 충돌 없이 동작
-
-| 적용 전                       | 적용 후                      |
-| ----------------------------- | ---------------------------- |
-| ![before](./img/Zustand1.gif) | ![after](./img/Zustand2.gif) |
-
-### 4-5 useDebouncedFetch Hook 활용
-
-즉시 화면에 반영되도록 처리 하기 때문에 사용자가 짧은 시간 안에 여러 번 클릭하거나 입력을 변경하게 되면, **서버 액션이 연속적으로 호출** 과부하를 일으킬 수 있음.
-
-그러나, 서버 응답을 기다리는 동안 버튼을 비활성화시키는 방식은 사용자 경험 저하 및 빠른 인터랙션의 흐름을 끊어버릴 위험 존재.
-
-따라서, **클릭 시 UI는 즉각 반영하되, 서버 요청은 디바운스(Debounce) 방식으로 최적화** 하는 커스텀 훅 직접 구현
-
-#### useDebouncedFetch 주요 특징
-
-1. 로컬 상태(localState)는 즉시 업데이트하여 사용자에게 빠른 피드백 제공
-2. 서버 요청은 마지막 입력 이후 일정 시간(delay) 동안 입력이 없을 때만 실행
-3. 서버 요청 실패 시, 로컬 상태를 롤백하여 데이터 정합성 유지
-
-### 4-6 react 리랜더링 최적화
-
-초기 개발 단계에서는 최적화를 고려하지 않고 구현하여, 컴포넌트가 불필요하게 자주 리렌더링되는 문제 발생
-
-이는, 퍼포먼스 저하로 이어짐
-
-> useCallback과 memo 도입
->
-> - useCallback: 콜백 함수를 메모이제이션하여 매 렌더링마다 새로운 함수 인스턴스가 생성되는 것을 방지.
-> - React.memo: prop가 변경되지 않은 경우 컴포넌트 리렌더링을 방지하여 불필요한 렌더링 사이클을 대폭 줄임.
-
-#### 개선 결과
-
-| 지표                           | 최적화 전 (`localhost_2025-04-21_15-58-34.json`) | 최적화 후 (`localhost_3000-20250421T160009.json`) | 변화         |
-| :----------------------------- | :----------------------------------------------- | :------------------------------------------------ | :----------- |
-| First Contentful Paint (FCP)   | 0.9초 (909.6ms)                                  | 0.9초 (909.2ms)                                   | 거의 동일    |
-| Largest Contentful Paint (LCP) | 3.2초 (3170.6ms)                                 | 1.7초 (1707.2ms)                                  | 대폭 개선 ✅ |
-| Speed Index                    | 1.4초 (1408ms)                                   | 1.4초 (1363.9ms)                                  | 소폭 개선    |
-
-![rerendering](./img/rerendering.png)
-
-**LCP가 3.2초 → 1.7초로 약 47% 개선**
-
----
-
 ## 5. 설계 문서
 
 ### 🏗시스템 아키텍쳐
-
-<br>
-
 ![114-아키텍쳐](https://github.com/user-attachments/assets/58712f9b-50dc-4b0d-ac8d-0e407e7325f4)
 
 <br>
-<br>
 
-### 📝ERD
+### [ERD 설계](https://www.erdcloud.com/d/AfbenbEeNpbLj2dwu)
 
-![최종 ERD](https://github.com/user-attachments/assets/e484d31e-6d8b-4545-bf7b-1417a835eaf3)
+![ERD 이미지](./img/erd.png)
 
-### 📝 [ERD 링크](https://www.erdcloud.com/d/AfbenbEeNpbLj2dwu)
 
 <br>
 <br>
 
-### 요구사항 정의서
+### [요구사항 정의서](https://funky-baron-4b5.notion.site/1bc02141a4b3810fa400e69f078ac5ab?pvs=4)
 
-![요구사항 정의서](./img/requirement.png)
+![요구사항 정의서 이미지](./img/requirement.png)
+
+
 
 <br>
 <br>
 
-### API명세서
+### [API 명세서](https://funky-baron-4b5.notion.site/API-1b502141a4b3804485b7ef524f753b4a?pvs=4)
 
-![api 명세서](./img/apiSpecification.png)
+![API 명세서 이미지](./img/apiSpecification.png)
 
 ---
 
-## 6. 팀원 소개
+## 6. 프로젝트 규칙
 
-|         |     |     |               |          |     |
-| :-----: | :-: | :-: | :-----------: | :------: | :-: |
-|         |     |     |               |          |     |
-| Backend |     |     | Infra/Backend | Frontend |     |
-
-**Backend**
-
-**Frontend**
-
-**Infra**
-
----
-
-## 7. 프로젝트 규칙
 
 ### 1. 커밋 메시지 구조
 
@@ -321,35 +285,55 @@ Zustand를 도입하여 글로벌 상태 관리를 적용
 
 ---
 
-## 8. 포팅 메뉴얼
+## 7. 포팅 메뉴얼
 
-이 프로젝트는 [Next.js](https://nextjs.org) 프로젝트입니다.
+이 프로젝트는 [Spring](https://spring.io/) 프레임워크 기반 프로젝트입니다.
 
-### Getting Started
+### 시스템 요구사항
 
-먼저, 개발 서버를 실행합니다:
+| Name            | Version                      |
+|-----------------|------------------------------|
+| OS              | Ubuntu : 22.04, Windows : 11 |
+| Java            | 17                           |
+| Spring Boot     | 3.4.4                        |
+| Gradle - Groovy | 8.13                         |
+| MySQL           | 9.2.0                        |
+
+
+### 의존성 및 라이브러리
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	// Spring Security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+	// Jwt
+	implementation group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.12.5'
+	implementation group: 'io.jsonwebtoken', name: 'jjwt-impl', version: '0.12.5'
+	implementation group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: '0.12.5'
+
+	// swagger
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.7.0'
+
+	// Validation
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+
 ```
 
-브라우저에서 [http://localhost:3000](http://localhost:3000) 을 열어 결과를 확인하세요.
+### 포팅 절차
 
-페이지는 app/page.tsx 파일을 수정하여 편집을 시작할 수 있습니다. 파일을 수정하면 페이지가 자동으로 업데이트됩니다.
-
-이 프로젝트는 [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) 를 사용하여 [Geist](https://vercel.com/font)라는 새로운 글꼴을 자동으로 최적화하고 로드합니다.
-
-## Learn More
-
-Next.js에 대해 더 알아보려면 다음 리소스를 참고하세요:
-
-- [Next.js Documentation](https://nextjs.org/docs) - Next.js 기능 및 API에 대해 배우기
-- [Learn Next.js](https://nextjs.org/learn) - 대화형 Next.js 튜토리얼
-
-[the Next.js GitHub repository](https://github.com/vercel/next.js)도 확인해보세요. 여러분의 피드백과 기여를 환영합니다!
+> [1단계] Git 클론 및 프로젝트 폴더 이동  
+> [2단계] 환경 설정 파일 수정(application.properties 또는 application.yml)  
+> [3단계] DB 마이그레이션 진행  
+> [4단계] 로컬 서버 실행
+> 
