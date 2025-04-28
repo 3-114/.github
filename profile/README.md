@@ -8,9 +8,9 @@
 
 ## 📁 레포지토리 링크
 
-| 구분  | 레포지토리 |
-| :---: | :-------- |
-| Backend (BE) | [BE-Starbucks-Renewal](https://github.com/3-114/BE-Starbucks-Renewal) |
+|      구분       | 레포지토리                                                                 |
+|:-------------:|:----------------------------------------------------------------------|
+| Backend (BE)  | [BE-Starbucks-Renewal](https://github.com/3-114/BE-Starbucks-Renewal) |
 | Frontend (FE) | [FE-Starbucks-Renewal](https://github.com/3-114/FE-Starbucks-Renewal) |
 
 # 목차
@@ -37,6 +37,7 @@
 <br>
 
 # 2. 👥 팀원 소개
+
 <div align="center">
 <table>
   <tr>
@@ -87,6 +88,7 @@
 
 
 ---
+
 # 3. 🛠 개발 환경
 
 <br>
@@ -95,30 +97,20 @@
 
 ### 🖥️ Front - End ↙️
 
-</div>
-
-
-<br>
-
 <div align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" height="28"/>
   <br>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" height="28"/>
-  <img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat&logo=react&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/React-000000?style=flat&logo=react&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/Zod-7C3AED?style=flat&logo=typescript&logoColor=white" height="28"/>
+  <br>
+  <img src="https://img.shields.io/badge/🐻%20Zustand-000000?style=flat&logo=logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/NextAuth.js-FFFFFF?style=flat&logo=nextdotjs&logoColor=black" height="28"/>
 </div>
-
-<br>
-
-<div align="center">
 
 ### ⚙️ Back - End ↙️
-</div>
-
-
-<br>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" height="28"/>
@@ -135,6 +127,7 @@
 <div align="center">
 
 ### 🖥️ Collabo ↙️
+
 </div>
 
 
@@ -159,17 +152,21 @@
 ---
 
 # 4. 🌱 주요 기능
-| 로그인 | 장바구니 | 기획전 |
-|:------:|:------:|:------:|
+
+|                                           로그인                                           |                                           장바구니                                           |                                           기획전                                           |
+|:---------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
 | ![로그인](https://github.com/user-attachments/assets/ce5d47fc-7d8b-4e71-bf9c-309dba8d9419) | ![장바구니](https://github.com/user-attachments/assets/1e01c531-c124-4be3-9669-919cd5b78dc2) | ![기획전](https://github.com/user-attachments/assets/57332611-4430-4934-aacc-71886ad6d116) |
 
-| 메인 | 베스트 | 카테고리 |
-|:----:|:----:|:----:|
+|                                           메인                                           |                                           베스트                                           |                                           카테고리                                           |
+|:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
 | ![메인](https://github.com/user-attachments/assets/5f8bd568-e6aa-4e84-8e2e-876cf7c6315d) | ![베스트](https://github.com/user-attachments/assets/9442fd63-6d9a-4194-8c78-dbb9ca9ddb98) | ![카테고리](https://github.com/user-attachments/assets/c34a57e2-2d93-4a28-9d82-c34b40aa4163) |
+
 ---
+
 # 5. 📜 설계 문서
 
 ### 🏗시스템 아키텍쳐
+
 ![114-아키텍쳐](https://github.com/user-attachments/assets/58712f9b-50dc-4b0d-ac8d-0e407e7325f4)
 
 <br>
@@ -244,9 +241,9 @@
 - 한 줄에 72자를 넘지 않도록 합니다.
 - "어떻게" 보다는 "무엇을", "왜" 변경했는지 설명합니다.
 - 예:
-  - Add JWT authentication to secure API endpoints
-  - Update login method to issue JWT tokens
-  - Modify user model to store JWT refresh tokens
+    - Add JWT authentication to secure API endpoints
+    - Update login method to issue JWT tokens
+    - Modify user model to store JWT refresh tokens
 
 ---
 
@@ -276,26 +273,27 @@
 브랜치 이름은 `<이슈번호>/<타입>/<설명>` 형식을 따릅니다.
 
 - `feature` 브랜치: 새로운 기능 추가
-  - 메인 기능 브랜치: `0/feature/login-main`
-  - 하위 기능 브랜치: `0/feature/login/create`
+    - 메인 기능 브랜치: `0/feature/login-main`
+    - 하위 기능 브랜치: `0/feature/login/create`
 - `bugfix` 브랜치: 버그 수정
-  - 예시: `0/bugfix/fix-login-error`
+    - 예시: `0/bugfix/fix-login-error`
 - `hotfix` 브랜치: 긴급 수정
-  - 예시: `0/hotfix/critical-bug-fix`
+    - 예시: `0/hotfix/critical-bug-fix`
 - `release` 브랜치: 릴리스 준비
-  - 예시: `0/release/1.0.0`
+    - 예시: `0/release/1.0.0`
 - `refactor` 브랜치: 코드 리팩토링
-  - 예시: `0/refactor/optimize-auth-module`
+    - 예시: `0/refactor/optimize-auth-module`
 - `test` 브랜치: 테스트 작성
-  - 예시: `0/test/add-unit-tests`
+    - 예시: `0/test/add-unit-tests`
 - `chore` 브랜치: 문서 수정, 라이브러리 업데이트 등
-  - 예시: `0/chore/update-dependencies`
+    - 예시: `0/chore/update-dependencies`
 
 #### _브랜치 관리 전략_
 
 - `main`: 항상 배포 가능한 상태를 유지합니다.
 - `develop`: 다음 릴리스에 포함될 기능을 통합하는 브랜치입니다.
 - 기능 개발은 이슈-브랜치 매칭을 원칙으로 합니다.
+
 ---
 
 # 7. 💻 포팅 매뉴얼
@@ -311,7 +309,6 @@
 | Spring Boot     | 3.4.4                        |
 | Gradle - Groovy | 8.13                         |
 | MySQL           | 9.2.0                        |
-
 
 ## 🔧의존성 및 라이브러리
 
