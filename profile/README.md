@@ -187,6 +187,7 @@
 
 <br>
 <br>
+</div>
 
 ### 📋 [API 명세서](https://funky-baron-4b5.notion.site/API-1b502141a4b3804485b7ef524f753b4a?pvs=4)
 
