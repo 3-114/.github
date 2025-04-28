@@ -6,18 +6,24 @@
 
 </div>
 
+## 📁 레포지토리 링크
+
+| 구분  | 레포지토리 |
+| :---: | :-------- |
+| Backend (BE) | [BE-Starbucks-Renewal](https://github.com/3-114/BE-Starbucks-Renewal) |
+| Frontend (FE) | [FE-Starbucks-Renewal](https://github.com/3-114/FE-Starbucks-Renewal) |
 
 # 목차
 
 1. [기획](#1-기획)
-2. [팀원 소개](#2-팀원-소개)
-3. [개발 환경](#3-개발-환경)
-4. [주요 기능](#4-주요-기능)
-5. [설계 문서](#5-설계-문서)
-6. [프로젝트 규칙](#-6-프로젝트-규칙)
-7. [포팅 메뉴얼](#7-포팅-메뉴얼)
+2. [팀원 소개](#2--팀원-소개)
+3. [개발 환경](#3--개발-환경)
+4. [주요 기능](#4--주요-기능)
+5. [설계 문서](#5--설계-문서)
+6. [프로젝트 규칙](#6--프로젝트-규칙)
+7. [포팅 매뉴얼](#7--포팅-매뉴얼)
 
-# 1. 📋 기획
+# 1. ✨ 기획
 
 > #### ✨ 신세계 I&C [스파로스 6기](https://swedu.spharosacademy.com/spharos_total.html) - 리빌딩 프로젝트
 >
@@ -81,7 +87,7 @@
 
 
 ---
-# 3. 🎯 개발 환경
+# 3. 🛠 개발 환경
 
 <br>
 
@@ -168,7 +174,7 @@
 
 <br>
 
-### [ERD 설계](https://www.erdcloud.com/d/AfbenbEeNpbLj2dwu)
+### 📝 [ERD 설계](https://www.erdcloud.com/d/AfbenbEeNpbLj2dwu)
 
 ![ERD 이미지](./img/erd.png)
 
@@ -176,7 +182,7 @@
 <br>
 <br>
 
-### [요구사항 정의서](https://funky-baron-4b5.notion.site/1bc02141a4b3810fa400e69f078ac5ab?pvs=4)
+### 📋 [요구사항 정의서](https://funky-baron-4b5.notion.site/1bc02141a4b3810fa400e69f078ac5ab?pvs=4)
 
 ![요구사항 정의서 이미지](./img/requirement.png)
 
@@ -185,7 +191,7 @@
 <br>
 <br>
 
-### [API 명세서](https://funky-baron-4b5.notion.site/API-1b502141a4b3804485b7ef524f753b4a?pvs=4)
+### 📋 [API 명세서](https://funky-baron-4b5.notion.site/API-1b502141a4b3804485b7ef524f753b4a?pvs=4)
 
 ![API 명세서 이미지](./img/apiSpecification.png)
 
@@ -193,7 +199,7 @@
 
 # 6. 🏁 프로젝트 규칙
 
-## 1. 커밋 메시지 구조
+## 1️⃣ 커밋 메시지 구조
 
 커밋 메시지는 제목, 본문, 그리고 꼬리말로 구성됩니다.
 [<스코프>]<타입>: <제목>
@@ -244,7 +250,7 @@
 
 ---
 
-## 2. Git 브랜치 작성 및 관리 규칙
+## 2️⃣ Git 브랜치 작성 및 관리 규칙
 
 #### _브랜치 생성 흐름_
 
@@ -292,11 +298,11 @@
 - 기능 개발은 이슈-브랜치 매칭을 원칙으로 합니다.
 ---
 
-# 7. 포팅 메뉴얼
+# 7. 💻 포팅 매뉴얼
 
 이 프로젝트는 [Spring](https://spring.io/) 프레임워크 기반 프로젝트입니다.
 
-### 시스템 요구사항
+## 시스템 요구사항
 
 | Name            | Version                      |
 |-----------------|------------------------------|
@@ -307,7 +313,7 @@
 | MySQL           | 9.2.0                        |
 
 
-### 의존성 및 라이브러리
+## 🔧의존성 및 라이브러리
 
 ```bash
 
